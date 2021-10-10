@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+.logo {
+  font-family: "Ephesis", cursive;
+  font-size: 5rem;
+  margin-top: -5.5rem;
+  text-align: center;
+}
+
+.smallLogo {
+  font-family: "Ephesis", cursive;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.closeBtn {
+  display: block;
+  background-color: transparent;
+  border: none;
+  color: black;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  padding: 0;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.urgentBtn {
+  display: block;
+  background-color: transparent;
+  border: none;
+  color: black;
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  padding: 0;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  min-width: 100px;
+  display: block;
+  height: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.todoListWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.todoInputWrapper {
+  background-color: #e5e5e5;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+
+.min-height {
+  min-height: 90px;
+}
+.todoCard {
+  background-color: #e5e5e5;
+}
+.clearBtn {
+  margin: auto;
+  margin-top: 2rem;
+  width: 200px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
